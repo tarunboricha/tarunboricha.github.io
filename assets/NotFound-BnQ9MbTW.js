@@ -1,0 +1,11 @@
+import{c as r,e as n,r as l,j as e,m as t,B as a,L as o}from"./index-BQIra9aC.js";/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const i=r("ArrowLeft",[["path",{d:"m12 19-7-7 7-7",key:"1l729n"}],["path",{d:"M19 12H5",key:"x3x0zl"}]]);/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const c=r("House",[["path",{d:"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8",key:"5wwlr5"}],["path",{d:"M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z",key:"1d0kgt"}]]),m=()=>{const s=n();return l.useEffect(()=>{console.error("404 Error: User attempted to access non-existent route:",s.pathname)},[s.pathname]),e.jsx("div",{className:"flex min-h-screen items-center justify-center bg-background pt-20",children:e.jsx("div",{className:"container-custom",children:e.jsxs(t.div,{initial:{opacity:0,y:30},animate:{opacity:1,y:0},className:"text-center max-w-2xl mx-auto",children:[e.jsx(t.div,{initial:{scale:0},animate:{scale:1},transition:{delay:.2,type:"spring",stiffness:200},className:"mb-8",children:e.jsx("h1",{className:"text-9xl md:text-[12rem] font-bold gradient-text",children:"404"})}),e.jsx("h2",{className:"text-3xl md:text-4xl font-bold mb-4",children:"Page Not Found"}),e.jsx("p",{className:"text-lg text-muted-foreground mb-8",children:"Oops! The page you're looking for doesn't exist or has been moved."}),e.jsxs("div",{className:"flex flex-wrap gap-4 justify-center",children:[e.jsx(a,{size:"lg",asChild:!0,className:"hover-glow",children:e.jsxs(o,{to:"/",children:[e.jsx(c,{className:"mr-2 h-5 w-5"}),"Go Home"]})}),e.jsx(a,{size:"lg",variant:"outline",asChild:!0,className:"hover-glow",children:e.jsxs("button",{onClick:()=>window.history.back(),children:[e.jsx(i,{className:"mr-2 h-5 w-5"}),"Go Back"]})})]}),e.jsx("div",{className:"mt-12 p-6 card-glass rounded-2xl",children:e.jsxs("p",{className:"text-sm text-muted-foreground",children:["If you believe this is an error, please"," ",e.jsx(o,{to:"/contact",className:"text-primary hover:underline font-semibold",children:"contact me"})]})})]})})})};export{m as default};
